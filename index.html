@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Praticanto HTML e CSS</title>
+</head>
+<body>
+    <h1>Colocando em prática alguns conceitos aprendidos!</h1>
+
+    <h2>Aqui temos um exemplo de Lorem</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel autem dolores odio illo veritatis modi doloribus atque laboriosam provident porro. Numquam debitis et iste possimus molestiae a id fuga officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quia voluptatibus distinctio tempora illo obcaecati, atque quibusdam? Aliquam dicta sed, delectus est laudantium illum distinctio optio maiores, doloribus quos culpa.</p>
+
+    <h2>Aqui teremos uma imagem dinâmica</h2>
+    
+    <div id="img">
+        <picture>
+            <source media="(max-width:500px)" srcset="logo-html-300.png" type="image/png">
+            <source media="(max-width:750px)" srcset="logo-html-600.png" type="image/png">
+            <img src="logo-html-full.png" alt="Logo HTML">
+        </picture>
+    </div>
+
+    <h2>Lista das linguagens de programação que estou aprendendo e as que quero aprender</h2>
+
+    <ul>
+        <li>Python</li>
+        <li>JavaScript</li>
+    </ul>
+    <ol>
+        <li>C++</li>
+        <li>NodeJS</li>
+        <li>SQL</li>
+    </ol>
+
+    <!-- É sempre importante atribuir o title no link, para legendar o destino do link! -->
+    <h2>Linkando coisas</h2>
+    <p><a href="../exercicios/modulo01/links.html" title="Link para página de links feita em outra pasta" target="_blank">Utilizando link interno ou URL relativo</a></p><br>
+    <p><a href="https://www.google.com" target="_blank" title="Site do Google">Aqui você acessa um link externo com a propriedade "_blank". URL absoluto</a></p>
+
+    <h2>Aqui você roda um JS dentro de um hiperlink</h2>
+    <a href="javascript:alert('Olá! Estou rodando um script JS através de um link!');" title="Execução de um Script">Execute JS</a>
+
+    <h2>Aqui você tem acesso ao meu e-mail</h2>
+    <a href="mailto:rafars.team22@gmail.com" title="Link para e-mail" target="_blank">Me mande um e-mail</a>
+
+    <h2>Link atráves de uma imagem</h2>
+    <a href="https://www.youtube.com" title="Acesse o youtube através desse link" target="_blank">
+        <img src="logo-html-full.png" alt="Logo do HTML5" width="100px" height="100px">
+    </a>
+
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/table.css">
+    <title>Tabelas</title>
+</head>
+<body>
+    <main>
+        <h1>Utilizando tabelas em HTML</h1>
+        <h2>Aprendendo a utilizar as tags table, th, tr e td</h2>
+        <p>Em html podemos criar tabelas com um conjunto de dados, linhas e colunas de maneira bem estruturada. E para tornar o conteúdo e a tabela visivelmente mais harmônica, utilizamos algumas propriedades em css para melhor estilizá-la!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa labore impedit illum inventore rem non, eum molestiae ut adipisci vero quia fugit delectus officia sit voluptate accusamus perferendis aspernatur nesciunt. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum cumque iure porro itaque quidem corrupti quasi repellat, reiciendis ut quod? Ipsa vel obcaecati at voluptatem, tempora veritatis? Dolor, non unde.</p>
+
+        <h3>Aqui temos uma tabela padrão:</h3>
+        <table>
+            <caption>títulos em colunas(vertical)</caption>
+            <tr>
+                <!-- Aqui temos o título de cada coluna -->
+                <th>Nome</th>
+                <th>Sobrenome</th>
+                <th>idade</th>
+            </tr>
+            <tr>
+                <!-- Aqui são os dados por linha, correspondente a cada coluna representada logo a cima -->
+                <td>Rafael</td>
+                <td>Ribeiro</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td>Bruna Letícia</td>
+                <td>Gonçalves dos Santos</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Ana Beatriz</td>
+                <td>Ribeir Silva</td>
+                <td>21</td>
+            </tr>
+        </table>
+        <h3>Outro exemplo de tabela:</h3>
+        <!-- Essa tabela os títulos estão na horizontal, ou seja, cada título está em uma linha ao invés de colunas -->
+        <table>
+            <caption>Títulos em linhas(horizontal)</caption>
+            <tr>
+                <th>Nome</th>
+                <td>Rafael</td>
+                <td>Letícia</td>
+            </tr>
+            <tr>
+                <th>idade</th>
+                <td>22</td>
+                <td>20</td>
+            </tr>
+        </table>
+        <h3>Agora uma tabela decente</h3>
+
+        <table id="principal" style="width: 100%;">
+            <tr>
+                <th>Nome</th>
+                <th>Gosto Musical</th>
+                <th>Carinhoso(a)</th>
+            </tr>
+            <tr>
+                <td>Rafael</td>
+                <td>Sertanejo/rap</td>
+                <td>Sim</td>
+            </tr>
+            <tr>
+                <td>Letícia</td>
+                <td>Funk</td>
+                <td>Não</td>
+            </tr>
+            <tr>
+                <td>Adeliseide</td>
+                <td>MPB</td>
+                <td> - </td>
+            </tr>
+        </table>
+    </main>
+</body>
+</html>

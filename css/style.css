@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 8px;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(#80b0df, #2b7692, #11ceb8);
+}
+h1{
+    padding: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+h2{
+    padding: 20px;
+    color: #dee187;
+
+}
+p{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
+a{ 
+    padding: 10px;
+    text-decoration: none;
+}
+a:link{
+    color: chartreuse;
+    
+}
+a:active, a:visited{
+    color: rgb(102, 27, 106);
+}
+ul, ol{
+    padding: 20px;
+    margin-left: 20px;
+}
+#img{
+    padding: 50px;
+    text-align: center;
+}

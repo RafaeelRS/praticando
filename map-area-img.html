@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/map-area-img.css">
+    <title>Mapeamento de imagens</title>
+</head>
+<body>
+    <main>
+        <h1>Utilizando o Mapeamento de imagens</h1>
+        <h2>Para que serve?</h2>
+        <p>A tag map em cojunto com o elemento area, conseguimos criar uma mapa de uma imagem e atribuir dentro da tag area, as coordenadas que correspondem a uma forma que queremos que seja clicável! Portanto, podemos criar uma área com hiperlink dentro de uma img em um espaço específico da imagem.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus omnis id provident vel eligendi unde sint maiores, asperiores quas sapiente quos ab quia dignissimos officia, laboriosam aliquid expedita, culpa reprehenderit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ipsum aspernatur voluptatibus in optio. Qui, quasi veritatis. Non nostrum dignissimos vel soluta. Blanditiis corporis a error similique quod, veniam tempore.</p>
+        
+        <p>Logo abaixo temos uma imagem utilizando a tag &lt;map&gt; Obs.: Tente clicar no número 5!</p>
+        <section id="img">
+            <img src="images/logo-html-300.png" alt="logo-html-300" usemap="#mapa">
+            <map name="mapa">
+                <area shape="rect" coords="60,130,227,338" href="index.html" title="Outra página html" target="_blank" alt="aoba">
+            </map>
+        </section>
+    </main>
+</body>
+</html>
